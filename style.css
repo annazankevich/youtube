@@ -63,3 +63,44 @@ button:hover {
 .title {
     margin-top: -100px;
 }
+
+.page-item {
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: #e1e4e8;
+    margin-right: 7px;
+}
+.active {
+    background: #7a7171;
+}
+.video-link {
+    padding: 20px 10px;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #1e1b20;
+    text-align: center;
+    display: inline-block;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #1e1b20;
+    text-align: center;
+}
+
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #f6f3f3;
+}
+a:hover {
+    color: #e1e4e8;
+}
